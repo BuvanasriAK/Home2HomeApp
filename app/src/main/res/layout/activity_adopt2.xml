@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adopt_page_two_pic"
+    tools:context=".Adopt2">
+
+    <TextView
+        android:id="@+id/adoptText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Pick a kid of your choice"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCFFEB3B"
+            android:checked="true"
+            android:onClick="checkButton"
+            android:text="Name:\tDamini\nID:\tD627384\nDOB:\t10/11/2016\nAge:\t3 Yrs\nGender:\tFemale\nHealth Status:\tNormal" />
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCFFFFFF"
+            android:onClick="checkButton"
+            android:text="Name:\tIshaan\nID:\tI78349\nDOB:\t07/03/2014\nAge:\t6 Yrs\nGender:\tMale\nHealth Status:\tAllergic to citrus" />
+
+        <RadioButton
+            android:id="@+id/radio_three"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#CCFFEB3B"
+            android:onClick="checkButton"
+            android:text="Name:\tMihir\nID:\tM24452\nDOB:\t26/07/2015\nAge:\t4 Yrs\nGender:\tMale\nHealth Status:\tLactose intolerance" />
+
+        <RadioButton
+            android:id="@+id/radio_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCFFFFFF"
+            android:onClick="checkButton"
+            android:text="Name:\tSiddhi\nID:\tS35954\nDOB:\t04/01/2019\nAge:\t1 Yr\nGender:\tFemale\nHealth Status:\tNormal" />
+
+        <RadioButton
+            android:id="@+id/radio_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCFFEB3B"
+            android:onClick="checkButton"
+            android:text="Name:\tUmaang\nID:\tU26043\nDOB:\t15/05/2012\nAge:\t8 Yrs\nGender:\tFemale\nHealth Status:\tGluten Sensitivity" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#A5000000"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:text="next" />
+
+</RelativeLayout>

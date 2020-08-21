@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.home2home">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MakeADonation2" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".ManagerHome" />
+        <activity android:name=".ManagerLogin" />
+        <activity android:name=".Googlepay" />
+        <activity android:name=".MakeADonation" />
+        <activity android:name=".BecomeAMember2" />
+        <activity android:name=".BecomeAMember" />
+        <activity android:name=".Adopt3" />
+        <activity android:name=".Adopt2" />
+        <activity android:name=".Adopt" />
+        <activity android:name=".Register" />
+        <activity android:name=".Homepage" />
+        <activity android:name=".IndividualLogin" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/member_page_one_pic"
+    tools:context=".BecomeAMember">
+
+
+    <TextView
+        android:id="@+id/memberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="20dp"
+        android:background="#9B4F6DE3"
+        android:text="By becoming a member, you choose to make donations on a monthly basis."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/memberText2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:layout_below="@+id/memberText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#C3EEFF41"
+        android:hint="Amount in INR"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/memberText3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/memberText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#C3EEFF41"
+        android:hint="Date of every month you'd contribute on"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/memberNextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/memberText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#9B4F6DE3"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

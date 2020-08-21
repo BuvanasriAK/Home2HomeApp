@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/manager_home_page_pic"
+    tools:context=".ManagerHome">
+
+    <TextView
+        android:id="@+id/listHeadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="List of Orphanages" />
+
+    <ScrollView
+        android:id="@+id/scV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/listHeadText"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCFFB64A"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="Dazzling Stone Orphanage\nChennai, Tamil Nad\n094442 73518" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nUdhavum Ullangal Illame\nChennai, Tamil Nadu\n044 2267 2236" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nGood Life Centre\nChennai, Tamil Nadu\n044 2226 4151" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nOpen Door Orphanage\nChennai, Tamil Nadu\n098407 82776" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nGreater Love For Children\nChennai, Tamil Nadu\n092833 93105" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nMother Teresa Children's Orphanage\nBengaluru, Karnataka\n063633 87310" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nMother of Mercy Orphanage\nBengaluru, Karnataka\n094480 03592
+" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nCare and Love Orphanage\nHyderabad, Telangana\n096521 21221" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="\nAadarana Home\nHyderabad, Telangana\n093460 05469" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/managerHomeReturnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="610dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="610dp"
+        android:layout_marginBottom="610dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#CC54A8EA"
+        android:text="Return"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
